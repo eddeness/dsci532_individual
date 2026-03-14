@@ -4,7 +4,7 @@ Individual assignment — reimplementation of the group project dashboard using 
 
 ## Live App
 
-> (Posit Connect Cloud 배포 후 링크 추가)
+> [](https://connect.posit.cloud/edeness/content/019cee40-3c62-b88b-1ed6-cb4e4133bbd6)
 
 ## Features
 
@@ -28,13 +28,4 @@ install.packages(c("shiny", "bslib", "bsicons", "dplyr", "ggplot2", "readr", "DT
 shiny::runApp("app.R")
 ```
 
-> Make sure `financial_statement.csv` is in the **same folder** as `app.R`.
-
-## Project Structure
-
-```
-.
-├── app.R
-├── financial_statement.csv
-└── README.md
-```
+> Make sure `data/financial_statement.csv` is in the **same folder** as `app.R`.
